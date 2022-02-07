@@ -4,10 +4,10 @@ import './Playlist.css';
 class Playlist extends React.Component {
     render () {
         return (
-            <div class="Playlist">
+            <div className="Playlist">
                 <input defaultValue={"New Playlist"}/>
-                {/* <Tracklist /> */}
-                <button class="Playlist-save">SAVE TO SPOTIFY</button>
+                {/* <TrackList /> */}
+                <button className="Playlist-save">SAVE TO SPOTIFY</button>
             </div>
         )
     }
